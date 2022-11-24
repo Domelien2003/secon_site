@@ -1,0 +1,32 @@
+.nav-item a{
+    color: white;
+}
+.nav-item a:visited{
+    color: white;
+}
+.nav-item a:hover{
+    color: yellow;
+}
+.carousel-item{
+    height: 32rem;
+}
+@media screen and (max-width:900px) {
+    .carousel-item{
+        height: auto;
+    }
+}
+.carousel-item img{
+    filter: brightness(50%);
+}
+.para{
+    text-align: justify;
+    border: 2px solid black;
+    height: 360px;
+    overflow-y: scroll;
+    padding: 20px;
+    text-indent: 20px;
+}
+.para::first-letter{
+color: red;
+font-size: 50px;
+}
